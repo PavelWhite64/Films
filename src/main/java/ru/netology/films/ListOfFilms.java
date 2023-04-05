@@ -28,7 +28,7 @@ public class ListOfFilms {
     public String[] findLast() {
         int totalFilms;
 
-        if (films.length < 5) {
+        if (films.length < limit) {
             totalFilms = films.length;
         } else {
             totalFilms = limit;
